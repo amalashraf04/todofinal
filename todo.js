@@ -5,7 +5,7 @@ if(!currentUser){
     window.location='index.html';
 
 }
-console.log(currentUser);
+
 
 $('#welcomeText').html(`Hello ${currentUser.username}! <br> Welcome to your Todo List`);
 
