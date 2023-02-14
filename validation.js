@@ -13,8 +13,7 @@ function login() {
   }
 
   function redirectToMainPage() {
-    alert("Login Successfully");
-    
-   window.open("./todo.html","_blank");
+    window.localStorage.setItem('user',JSON.stringify({uname:'admin'}));
+    window.open("./todo.html","_blank");
     
   }
