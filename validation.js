@@ -15,6 +15,6 @@ function login() {
   function redirectToMainPage() {
     alert("Login Successfully");
     
-    window.open('todo.html','_blank');
+   window.open("./todo.html","_blank");
     
   }
