@@ -6,7 +6,7 @@
 
 // }
 
-
+alert("test");
 $('#welcomeText').html(`Hello ${currentUser.username}! <br> Welcome to your Todo List`);
 
 // code for log out
