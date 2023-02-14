@@ -1,12 +1,12 @@
-// //redirect if not valid login
-// let currentUser=JSON.parse(window.localStorage.getItem('user'));
+ //redirect if not valid login
+let currentUser=JSON.parse(window.localStorage.getItem('user'));
 
-// if(!currentUser){
-//     window.location='index.html';
+ if(!currentUser){
+     window.location='index.html';
 
-// }
+ }
 
-alert("test");
+
 $('#welcomeText').html(`Hello ${currentUser.username}! <br> Welcome to your Todo List`);
 
 // code for log out
