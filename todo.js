@@ -7,7 +7,7 @@ let currentUser=JSON.parse(window.localStorage.getItem('user'));
  }
 
 
-$('#welcomeText').html(`Hello ${currentUser.username}! <br> Welcome to your Todo List`);
+$('#welcomeText').html(`Hello ${currentUser.uname}! <br> Welcome to your Todo List`);
 
 // code for log out
 $('#logOut').on('click',(e)=>{
